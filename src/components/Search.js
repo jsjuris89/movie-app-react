@@ -7,7 +7,8 @@ function Search (props) {
                 type="text" 
                 placeholder="Search for a movie..." 
                 className="searchbox" 
-                onChange={props.handleInput} 
+                onChange={props.handleInput}
+                onKeyPress={props.search} 
             />
         </section>
     )
